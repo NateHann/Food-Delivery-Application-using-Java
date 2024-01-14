@@ -1,0 +1,25 @@
+ChowNow - Food Delivery Service
+======================
+INVOICE
+======================
+Order Number: 1
+Customer Name: Nate
+Contact Number: 083
+Email: gnm
+Delivery Address: 72 eikehof, port elizabeth
+
+Restaurant: KFC
+Restaurant Location: Port Elizabeth
+Restaurant Contact: 0835400000000\
+
+Order Details:
+1 x hotwings
+Special Instructions: Noner
+Total Amount Due: ZAR 100.0
+
+Your Order Will Be Delivered By: Ana Ortega, Located at: Port Elizabeth. He/She is located closest to your route currently.
+
+Thank you for choosing our service! We hope you enjoy your meal.
+=======================
+For any inquiries, contact KFC at 0835400000000\ or alternatively contact ChowNow on 041-123-1111
+=======================

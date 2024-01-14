@@ -1,0 +1,44 @@
+# Food Delivery Application Pseudocode
+
+## 1. Read Driver Information
+- Initialize a list for drivers
+- Read from 'drivers.txt'
+  - For each line:
+    - Split into name, location, and load
+    - Create a driver object
+    - Add to the list
+
+## 2. Capture Customer Details
+- Create a new customer object
+- Prompt for customer details
+  - Order number, name, contact number, address, city, email, restaurant name
+- Collect order items and quantities
+  - Loop to add items and quantities to order
+  - Continue until no more items
+- Prompt for special instructions and total amount
+- Save details in customer object
+
+## 3. Capture Restaurant Details
+- Prompt for restaurant information
+  - Name, location, contact number
+- Create and store in a new restaurant object
+
+## 4. Find the Nearest Driver
+- Search the driver list
+  - Find a driver in the same location as the restaurant with the smallest workload
+- If found, keep a reference; if not, prepare to inform the user
+
+## 5. Process Based on Driver Availability
+- If a suitable driver is found:
+  - Display driver details
+  - Prepare to create an invoice
+- If no suitable driver:
+  - Display no driver available message
+
+## 6. Generate and Save the Invoice
+- Compile details into an invoice format
+  - Customer's order details
+  - Restaurant details
+  - Assigned driver information
+- Write to 'invoice.txt'
+- Inform user of invoice generation
